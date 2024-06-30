@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Headertext from "./Headertext";
+import Headertext from "../Headertext";
 import {
   BsEnvelopePaper,
   BsFacebook,

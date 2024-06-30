@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Hero from "../components/Hero";
-import Commitment from "@/components/Commitment";
-import Experience from "@/components/Experience";
-import Locations from "@/components/Locations";
-import SpecialOffers from "@/components/SpecialOffers";
-import ContactUs from "@/components/ContactUs";
+import Hero from "../components/sections/Hero";
+import Commitment from "@/components/sections/Commitment";
+import Experience from "@/components/sections/Experience";
+import Locations from "@/components/sections/Locations";
+import SpecialOffers from "@/components/sections/SpecialOffers";
+import ContactUs from "@/components/sections/ContactUs";
 
 export default function Home() {
   return (

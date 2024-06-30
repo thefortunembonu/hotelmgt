@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Headertext from "./Headertext";
+import Headertext from "../Headertext";
 
 function Locations() {
   return (

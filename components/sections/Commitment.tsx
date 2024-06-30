@@ -1,5 +1,5 @@
 import React from "react";
-import Headertext from "./Headertext";
+import Headertext from "../Headertext";
 import { BsBagHeart, BsCake, BsCupHot, BsShop } from "react-icons/bs";
 
 function Commitment() {

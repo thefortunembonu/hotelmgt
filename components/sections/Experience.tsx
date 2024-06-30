@@ -1,5 +1,5 @@
 import React from "react";
-import Headertext from "./Headertext";
+import Headertext from "../Headertext";
 import { BsPeople, BsPersonArmsUp, BsShop } from "react-icons/bs";
 
 function Experience() {
