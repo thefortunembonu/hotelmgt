@@ -18,13 +18,15 @@ function Hero() {
       }}
     >
       <div className="px-8">
-        <span className="absolute top-[40px] left-[130px] font-medium text-sm uppercase">
+        <span className="absolute top-[40px] left-[75px] sm:left-[130px] font-medium text-sm uppercase">
           Serene Escapes <br />
           <span className="text-xs"> Hotels & Suites</span>
         </span>
-        <div className="px-24 text-left md:max-w-[700px]">
-          <h1 className="text-6xl leading-16 font-bodoni font-medium">
-            Discover a World of Tranquility and Elegance
+        <div className="px-8 sm:px-24 text-left md:max-w-[700px] mt-20">
+          <h1 className="text-5xl md:text-6xl leading-16 font-bodoni font-medium ">
+            Discover a World of
+            <span className="text-orange-400">Tranquility</span> and
+            <h1 className="text-orange-400 mx-2 ">Elegance</h1>
           </h1>
           <hr className="border-1 border-white/50 my-4 "></hr>
           <h3 className="text-sm font-poppins font-light mt-3">
@@ -34,7 +36,7 @@ function Hero() {
           <div className="mt-2">
             <button className="primary_btn">
               {" "}
-              Book Now
+              Book Your Stay
               <span>
                 <BsArrowRight />
               </span>

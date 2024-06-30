@@ -19,3 +19,20 @@
 .sec_btn {
     @apply bg-white flex gap-1 items-center text-gray-800 text-xs rounded-full py-2 px-4 shadow-lg hover:bg-cyan-500/20 hover:scale-95 hover:text-white
 }
+
+.navbtn {
+    @apply border-b w-full px-8 py-3 text-left text-cyan-300 border-cyan-700 hover:bg-cyan-600 hover:text-white
+}
+.heading {
+    @apply font-bodoni text-xl font-bold text-cyan-800 my-2 
+}
+.bodytext {
+    @apply font-poppins text-xs text-slate-600 leading-6 text-justify
+}
+.headingdark {
+    @apply font-bodoni text-xl font-bold text-cyan-200 my-2
+}
+
+.bodytextdark {
+    @apply font-poppins text-xs text-slate-50 leading-6 text-justify
+}
