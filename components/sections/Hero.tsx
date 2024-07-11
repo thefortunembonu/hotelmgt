@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "../public/Images/heroImage.jpg";
+import backgroundImage from "@/public/Images/heroImage.jpg";
 import { BsArrowRight } from "react-icons/bs";
 
 function Hero() {
